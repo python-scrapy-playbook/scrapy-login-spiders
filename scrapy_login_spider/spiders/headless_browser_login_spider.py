@@ -37,7 +37,7 @@ function main(splash, args)
 """
 
 
-class AmazonLoginSpider(scrapy.Spider):
+class HeadlessBrowserLoginSpider(scrapy.Spider):
     name = "amazon_login"
 
     def start_requests(self):
