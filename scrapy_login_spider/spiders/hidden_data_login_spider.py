@@ -5,8 +5,8 @@ from scrapy import Spider
 from scrapy.http import FormRequest
 
 
-class HiddenDataLoginSpider(Spider):
-    name = 'hidden_data_login'
+class LoginSpider(Spider):
+    name = 'login_spider'
 
     def start_requests(self):
         login_url = 'http://quotes.toscrape.com/login'
